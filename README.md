@@ -10,16 +10,18 @@
 
 —————————使用方法—————————
 
+下载方式：项目右上角绿色 `CODE` 按钮打开后，点击 `Download_ZIP` 进行下载并解压。
+
 （情况1）
 
-   已下载过ffmpeg且添加到Path环境中的用户直接下载 `【有ffmpeg】索尼相机视频画质无损批量转竖版视频（逆时针旋转90度）.bat` 命令，放在待转换的MP4文件所在的文件夹内 `直接运行` 该命令即可。
+   已下载过ffmpeg且添加到Path环境中的用户直接将 `【有ffmpeg】索尼相机视频画质无损批量转竖版视频（逆时针旋转90度）.bat` 命令放在待转换的MP4文件所在的文件夹内 `直接运行` 该命令即可。
 
  OR
 	 
 （情况2）
    
-   未下载过ffmpeg且未添加到Path环境中的用户直接下载 `【无ffmpeg】索尼相机视频画质无损批量转竖版视频（逆时针旋转90度）.bat` 命令，然后进入 `https://github.com/BtbN/FFmpeg-Builds/releases` 页面，下载 `ffmpeg-master-latest-win64-gpl.zip` 程序，并解压zip文件。
+   未下载过ffmpeg且未添加到Path环境中的用户请先`下载ffmpeg程序`。进入 `https://github.com/BtbN/FFmpeg-Builds/releases` 页面，下载 `ffmpeg-master-latest-win64-gpl.zip` 程序，并解压zip文件。
    
-   复制文件夹中 `ffmpeg-master-latest-win64-gpl\bin` 该文件夹下的文件目录，例如：`C:\Users\richard\Desktop\ffmpeg-master-latest-win64-gpl\bin` 【注意精确到`/bin`】，然后用记事本打开下载的`【无ffmpeg】索尼相机视频画质无损批量转竖版视频（逆时针旋转90度）.bat` 命令，修改第一行 `此处粘贴你ffmpeg程序所在位置的bin目录位置` 为刚才复制的ffmpeg-master-latest-win64-gpl\bin的目录位置，例如：`set path=%path%;C:\Users\richard\Desktop\ffmpeg-master-latest-win64-gpl\bin;`，保存后，放在待转换的MP4文件所在的文件夹内 `直接运行` 该命令即可。
+   复制文件夹 `ffmpeg-master-latest-win64-gpl\bin` 该文件夹的文件目录，例如：`C:\Users\richard\Desktop\ffmpeg-master-latest-win64-gpl\bin` 【注意精确到`/bin`】，然后用记事本打开下载的`【无ffmpeg】索尼相机视频画质无损批量转竖版视频（逆时针旋转90度）.bat` 命令，修改第一行 `此处粘贴你ffmpeg程序所在位置的bin目录位置` 为刚才复制的ffmpeg-master-latest-win64-gpl\bin的目录位置，例如：`set path=%path%;C:\Users\richard\Desktop\ffmpeg-master-latest-win64-gpl\bin;`，保存后，放在待转换的MP4文件所在的文件夹内 `直接运行` 该命令即可。
 
 转换完成后，新文件会保存在视频文件所在文件夹下的 `Done` 文件夹内。
