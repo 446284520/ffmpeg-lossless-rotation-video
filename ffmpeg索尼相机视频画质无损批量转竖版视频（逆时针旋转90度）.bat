@@ -1,3 +1,4 @@
+set path=%path%;此处粘贴你ffmpeg程序所在位置的bin目录位置;
 @echo off
 :: 创建目标文件夹 Done（如果不存在）
 if not exist "Done" mkdir "Done"
